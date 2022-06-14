@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         print("App Loaded...")
     }
     
-    //test
     @IBAction func askQuestionButton(_ sender: Any) {
         print("Question being asked...")
         magicBall.image = magicBallArr.randomElement()
