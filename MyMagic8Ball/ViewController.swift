@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var magicBall: UIImageView!
     
-    let magicBallArr = [#imageLiteral(resourceName: "ball5"), #imageLiteral(resourceName: "ball2.png"), #imageLiteral(resourceName: "ball3.png"), #imageLiteral(resourceName: "ball4.png"), #imageLiteral(resourceName: "ball5.png")]
+    let magicBallArr = [#imageLiteral(resourceName: "ball2"), #imageLiteral(resourceName: "ball4"), #imageLiteral(resourceName: "ball4"), #imageLiteral(resourceName: "ball3"), #imageLiteral(resourceName: "ball5")]
         
     override func viewDidLoad() {
         super.viewDidLoad()
